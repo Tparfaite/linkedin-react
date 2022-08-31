@@ -1,0 +1,8 @@
+.links{
+    background-color: aqua;
+    display: flex;
+    gap: 60px;
+    padding-left: 10px;
+    height: 30px;
+   padding: auto;
+}
