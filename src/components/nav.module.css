@@ -3,6 +3,15 @@
     display: flex;
     gap: 60px;
     padding-left: 10px;
-    height: 30px;
+    height: 45px;
    padding: auto;
+   font-size: 17px;
+}
+.links input[type]{
+    height: 30px;
+}
+.links a:hover{
+ cursor: pointer;
+ color: black;
+ text-decoration: underline;
 }

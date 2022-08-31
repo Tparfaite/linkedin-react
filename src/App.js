@@ -11,7 +11,7 @@ import Work from "./components/work";
 import Jobs from "./components/jobs";
 import Messaging from "./components/messaging";
 import Notifications from "./components/notifications";
-// import Premium from "./components/premium";
+import Premium from "./components/premium";
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <Route path="/notifications" element={<Notifications />}/>
         <Route path="/me" element={ <Me/>}/>
         <Route path="/work" element={<Work/>}/>
-        {/* <Router path="/premium" element={<Premium/>}/> */}
+        <Route path="/premium" element={<Premium/>}/>
         
       </Routes>
    
